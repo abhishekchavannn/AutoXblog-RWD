@@ -82,10 +82,14 @@ nav ul li a{
   transition: 0.8s;
   transition-timing-function: ease;
 }
-a.active,a:hover{
+.navItems:active{
+  color:#151320;
+}
+.navItems:hover{
   font-family: montserrat;
   color: #1E3163;
   font-size: 120%;
+  
 }
 
 .burger{
@@ -140,7 +144,11 @@ a.active,a:hover{
     left: 0;
   }
 }
-
+@media(max-width: 400px){
+ #footer{
+   padding: 4% 4%;
+}
+}
 
 #footer {
     padding: 4% 13%;
@@ -154,6 +162,7 @@ a.active,a:hover{
     padding: 20px 10px;
     color: white;
     cursor: pointer;
+    transition: 0.5 ease;
   }
   
   .social:hover {
@@ -224,7 +233,51 @@ img{
   line-height: 30px;
 
 }
+.form-container{
+ padding: 0% 8% 0 8%;
+}
+input[type = text],input[type = email], select, textarea{
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  resize: none;
+}
+.contact-logo{
+  padding-top: 100px;
+}
+textarea{
+  height: 200px;
 
+}
+.submit-btn{
+  padding-bottom: 40px;
+}
+input[type = submit]{
+  padding: 15px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: #151320;
+  color: #fff;
+ font-family: montserrat;
+ border: none;
+ outline: none;
+ box-shadow: 0px 3px 40px -5px rgba(0,0,0,0.18);
+ transition: 0.6s ease-in-out;
+}
+textarea:focus, input:focus,select{
+outline: none;
+
+}
+input[type = submit]:hover{
+  background-color: #fff;
+  color: #151320;
+
+  box-shadow: 2px 3px 40px -5px rgba(0,0,0,0.78);
+}
 
 
 

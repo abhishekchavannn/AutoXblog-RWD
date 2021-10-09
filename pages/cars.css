@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    
+    align-items: center;
+    margin: 4%;
+}
+iframe{
+   border-radius: 20px;
+   width: 50%;
+   display: block;
+}
+.car-body{
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 10% 5% 10% 5%;
+    
+}
+
+h1.blog-title{
+    font-family: montserrat;
+}
+p{
+    line-height: 1.5em;
+}
+.blog-heading{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+    margin: 4%;
+    
+}
+.author-container{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.name{
+    white-space: nowrap;
+}
+.author{
+    display: flex;
+    flex-direction: column;
+
+  
+}
+.profile-img{
+  
+    width: 60px;
+    border-radius: 100%;
+}
+.car-img{
+    margin-top: 5%;
+    border-radius: 20px;
+    box-shadow: 0px 2px 30px -2px rgba(0, 0, 0, 0.5);
+    width: 40%;
+    height: 50%;
+    transition: 0.5s;
+}
+.car-img:hover{
+    box-shadow: 0px 2px 40px -2px rgba(0,0,0,0.9);
+}
+em{
+    color: grey;
+    font-size: 0.8em;
+    text-align: center;
+}
+.car-img-vs{
+    box-shadow: 0px 2px 30px -2px rgba(0, 0, 0, 0.68);
+    border-radius: 20px;
+    
+}
+@media(max-width: 952px){
+    .blog-heading{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        
+        align-items: center;
+        margin: 4%;
+    }
+    .car-img{
+        width: 100%;
+        margin-top: 25%;
+ 
+    }
+    iframe{
+        border-radius: 20px;
+        width: 100%;
+        height: 30%;
+        display: block;
+    }
+    h1.blog-title{
+        font-size: 180%;
+    }
+    h1{
+        font-size: 180%;
+    }
+    .profile-img{
+        width: 20%;
+    }
+}
+
+

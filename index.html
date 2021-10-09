@@ -5,19 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="./sidebar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="icon" href="../assets/favicon.ico">
+    <link rel="icon" href="./assets/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Norican&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css' integrity='sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==' crossorigin='anonymous' />
-    <title>AutoBlog | Lab 4</title>
+    <title>AutoBlog | Home</title>
 </head>
-
   <nav>
     <input type="checkbox" id="check">
     <label for="check" class="burger">
@@ -25,10 +23,10 @@
     </label>
     <label class="Logo">AutoX</label>
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Blogs</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#" class="navItems">Home</a></li>
+      <li><a href="#" class="navItems">About</a></li>
+      <li><a href="#" class="navItems">Blogs</a></li>
+      <li><a href="./contact.html" class="navItems">Contact</a></li>
     </ul>
 </nav>
 <h1 class = "title-name">AUTOX - THE CAR BLOG</h1>
@@ -36,16 +34,11 @@
 <!--Grid-->
 <div class = "main-grid">
 <div class = "blog-grid">
-
- 
-
-
-
-  
-    <div class = "blog card1">
+     <div class = "blog card1">
+       <a href="./pages/bugatti.html">
         <div class = "container">
          
-          <img src="../assets/images/bugatti.jpg" alt="bugatti-img">
+          <img src="./assets/images/bugatti.jpg" alt="bugatti-img">
           <div class = "overlay">
            
           </div>
@@ -54,100 +47,88 @@
         <div class = "captions">
         
             <h3> <i class="fas fa-crown"></i> Bugatti Chiron</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
+            <p>The CHIRON is the fastest, most powerful, and exclusive production super sports car in BUGATTI’s history. </p>
         </div>
+      </a>
     </div>
 
     <div class = "blog card2">
+      <a href="./pages/lambo.html">
       <div class = "container">
-        <img src="../assets/images/lambo.jpg" alt="lambo-img">
+        <img src="./assets/images/lambo.jpg" alt="lambo-img">
         <div class = "overlay">
            
         </div>
       </div>
       <div class = "captions">
-          <h3><i class="fas fa-angle-double-up"></i>  Lamborghini</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-      </div>
+          <h3><i class="fas fa-angle-double-up"></i>  Lamborghini Huracán</h3>
+          <p>Sculptured and sensual, the Huracán’s design is based on the spiky hexagonal forms of the carbon atom.</p>
+      </div></a>
   </div>
 
 
   <div class = "blog card3">
+    <a href="./pages/mclaren.html">
     <div class = "container">
-      <img src="../assets/images/mclaren.jpg" alt="mclaren-img">
+      <img src="./assets/images/mclaren.jpg" alt="mclaren-img">
       <div class = "overlay"></div>
     </div>
     <div class = "captions">
-        <h3><i class="fas fa-dollar-sign"></i> McLaren</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
+        <h3><i class="fas fa-dollar-sign"></i> McLaren 720s</h3>
+        <p>The 720S embodies our relentless quest to push the limits of possibility. Lighter, stronger, faster. </p>
     </div>
+    </a>
 </div>
 
 
 
 <div class = "blog card4">
+  <a href="./pages/porsche.html">
   <div class = "container">
-    <img src="../assets/images/porsche.jpg" alt="porsche-img">
+    <img src="./assets/images/porsche.jpg" alt="porsche-img">
     <div class = "overlay"></div>
   </div>
   <div class = "captions">
-      <h3><i class="fas fa-anchor"></i> Porsche</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
+      <h3><i class="fas fa-anchor"></i> Porsche 991 GT3R</h3>
+      <p>The Porsche 911 GT3 is a high-performance homologation model of the Porsche 911 sports car. </p>
   </div>
+  </a>
 </div>
 
 
 
 <div class = "blog card5">
+  <a href="./pages/ferrari.html">
   <div class = "container">
-    <img src="../assets/images/ferrari.jpg" alt="ferrari-img">
+    <img src="./assets/images/ferrari.jpg" alt="ferrari-img">
     <div class = "overlay"></div>
   </div>
   <div class = "captions">
-      <h3><i class="fas fa-bolt"></i> Ferrari</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
+      <h3><i class="fas fa-bolt"></i> Ferrari 488</h3>
+      <p>The Ferrari 488 is a mid-engine sports car produced by the Italian automobile manufacturer Ferrari. </p>
   </div>
+</a>
 </div>
 
 
 
 
 <div class = "blog card6">
+  <a href="./pages/aston.html">
   <div class = "container">
-    <img src="../assets/images/aston.jpg" alt="aston-img">
+    <img src="./assets/images/aston.jpg" alt="aston-img">
     <div class = "overlay"></div>
   </div>
   <div class = "captions">
-      <h3><i class="fas fa-moon"></i> Aston Martin</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
+      <h3><i class="fas fa-moon"></i> Aston's Superleggera</h3>
+      <p>DBS has long signified the utmost in elegance and speed, comfort and performance.</p>
   </div>
+  </a>
 </div>
 </div>
-
-
-
-
-
-
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <script src="./index.js"></script>
 </body>
-
-
 <!--footer elements-->
 <footer id="footer" class="foot">
     <h3 style="color: white">Social links</h3>
@@ -156,6 +137,6 @@
     <a href="https://github.com/abhishekchavannn" ><i class="social fab fa-github fa-2x"></i></a>
     <a href="https://www.linkedin.com/in/abhishekchavannn123/"style="text-decoration: none"></a> <i class="social fab fa-linkedin-in fa-2x"></i></a>
     <a href="https://twitter.com/" style="text-decoration: none"></a><i class="social fab fa-twitter fa-2x"></i></a>
-    <p style="color: white">Made in Js | Lab-3 JS Advanced</p>
+    <p style="color: white">Made with HTML and CSS| Lab-4 Responsive web design</p>
   </footer>
 </html>
