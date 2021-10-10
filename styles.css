@@ -18,11 +18,21 @@ body{
   text-align: center;
   padding-top: 70px;
 }
+
+
+
 hr{
   margin: 2% 0 5% 0;
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.hr-about{
+  margin: 1% 0 1% 0 !important;
+  border: 0;
+  height: 1px !important;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+
 }
 .overlay{
   position: absolute;
@@ -63,6 +73,7 @@ label.Logo{
   padding: 0 10px 0 50px;
   font-weight: bold;
   float: left;
+  cursor: pointer;
 }
 nav ul{
   float: right;
@@ -91,7 +102,10 @@ nav ul li a{
   font-size: 120%;
   
 }
-
+.about{
+  
+    margin: 10% 5% 10% 5%;
+}
 .burger{
   font-size: 30px;
   color: #1c1b29;
@@ -253,6 +267,7 @@ textarea{
   height: 200px;
 
 }
+
 .submit-btn{
   padding-bottom: 40px;
 }
@@ -275,8 +290,58 @@ outline: none;
 input[type = submit]:hover{
   background-color: #fff;
   color: #151320;
+  cursor: pointer;
 
   box-shadow: 2px 3px 40px -5px rgba(0,0,0,0.78);
+}
+
+
+
+button{
+  padding: 15px;
+  width: 120px;
+  border-radius: 10px;
+  background-color: #151320;
+  color: #fff;
+ font-family: montserrat;
+ border: none;
+ outline: none;
+ box-shadow: 0px 3px 40px -5px rgba(0,0,0,0.18);
+ transition: 0.6s ease-in-out;
+}
+button:hover{
+  background-color: #fff;
+  color: #151320;
+  cursor: pointer;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  gap:40px;
+}
+.about-img{
+  width: 400px;
+  border-radius: 20px;
+}
+span{
+  line-height: 2;
+}
+@media (max-width: 952px){
+.about-title{
+  margin-top: 60px;
+}
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  gap:40px;
+}
+.about-img{
+  width: 200px;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 }
 
 
