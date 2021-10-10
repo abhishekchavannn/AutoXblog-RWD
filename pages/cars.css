@@ -21,6 +21,7 @@ iframe{
 
 h1.blog-title{
     font-family: montserrat;
+    text-align: center;
 }
 p{
     line-height: 1.5em;
@@ -76,6 +77,13 @@ em{
     border-radius: 20px;
     
 }
+.mclaren{
+    box-shadow: 0px 2px 30px -2px rgba(0, 0, 0, 0.68);
+    border-radius: 20px;
+    width: 700px;
+    height: 400px;
+    margin-left: 18%;
+}
 @media(max-width: 952px){
     .blog-heading{
         display: flex;
@@ -85,15 +93,22 @@ em{
         align-items: center;
         margin: 4%;
     }
+    .mclaren{
+        box-shadow: 0px 2px 30px -2px rgba(0, 0, 0, 0.68);
+        border-radius: 20px;
+        width: 350px;
+        height: 200px;
+        margin-left: 18%;
+    }
     .car-img{
         width: 100%;
-        margin-top: 25%;
+        margin-top: 10%;
  
     }
     iframe{
-        border-radius: 20px;
-        width: 100%;
-        height: 30%;
+        border-radius: 10px;
+        width: 80%;
+       
         display: block;
     }
     h1.blog-title{
@@ -103,7 +118,7 @@ em{
         font-size: 180%;
     }
     .profile-img{
-        width: 20%;
+        width: 12%;
     }
 }
 
