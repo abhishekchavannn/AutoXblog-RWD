@@ -23,6 +23,10 @@ h1.blog-title{
     font-family: montserrat;
     text-align: center;
 }
+h3{
+    color: black;
+    
+}
 p{
     line-height: 1.5em;
 }
